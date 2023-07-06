@@ -1,1 +1,1 @@
-<img src="https://socialify.git.ci/prabesh09/LearnJava/image?font=Jost&forks=1&issues=1&language=1&name=1&owner=1&pattern=Circuit%20Board&pulls=1&stargazers=1&theme=Dark" alt="LearnJava" width="full" height="320" />
+<img src="https://socialify.git.ci/prabesh09/LearnJava/image?font=Jost&forks=1&issues=1&language=1&name=1&owner=1&pattern=Circuit%20Board&pulls=1&stargazers=1&theme=Dark" alt="LearnJava" width="full" />
