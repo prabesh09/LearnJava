@@ -1,9 +1,9 @@
-public class Stack {
+public class StackOperation {
     private int maxSize;
     private int[] stack;
     private int top;
 
-    public Stack(int size) {
+    public StackOperation(int size) {
         maxSize = size;
         stack = new int[size];
         top = -1;
@@ -43,7 +43,7 @@ public class Stack {
     }
 
     public static void main(String[] args) {
-        Stack stack = new Stack(5);
+        StackOperation stack = new StackOperation(5);
         stack.push(11);
         stack.push(22);
         stack.push(33);
