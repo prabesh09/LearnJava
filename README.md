@@ -9,4 +9,4 @@
 | [Alex Lee](https://www.youtube.com/@alexlorenlee) | [IntelliJ](https://www.jetbrains.com/idea/) | [LearnJavaOnline](https://www.learnjavaonline.org/)               |
 | [freecodecamp](https://youtu.be/A74TOX803D0) | [Eclipse](https://www.eclipse.org/downloads/) | [w3schools](https://www.w3schools.com/java/)                     |
 | [Amingoscode](https://youtu.be/j9VNCI9Xo80) | [JDoddle](https://www.jdoodle.com/online-java-compiler/) | [MyGreatLearning](https://www.mygreatlearning.com/academy/learn-for-free/courses/java-programming) |
-| [edureka](https://www.youtube.com/live/x1RCEvYRTz0) | [replit](https://replit.com/) | [Udemy - Java Tutorial for Complete Beginners(https://www.udemy.com/course/java-tutorial/)            |
+| [edureka](https://www.youtube.com/live/x1RCEvYRTz0) | [replit](https://replit.com/) | [Udemy - Java Tutorial for Complete Beginners](https://www.udemy.com/course/java-tutorial/)            |
