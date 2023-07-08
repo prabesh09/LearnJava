@@ -2,7 +2,7 @@
 
 <h2 align="center"> Some Useful Resources</h2>
 
-|YouTube|Coding IDEs|Free Courses|
+|YouTube|Coding IDE's|Free Courses|
 | ------------------------------------------ | ---------------------------------------- | ---------------------------------------------------------------- |
 | [Bro Code](https://youtu.be/xk4_1vDrzzo)    | [Netbeans](https://netbeans.apache.org/) | [Codecademy](https://www.codecademy.com/learn/learn-java)        |
 | [Telusko](https://youtu.be/BGTx91t8q50)     | [VScode](https://code.visualstudio.com/) | [freeCodeCamp](https://www.freecodecamp.org/news/learn-java-free-java-courses-for-beginners/) |
