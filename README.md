@@ -1,8 +1,10 @@
 <img src="https://socialify.git.ci/prabesh09/LearnJava/image?font=Jost&forks=1&issues=1&language=1&name=1&owner=1&pattern=Circuit%20Board&pulls=1&stargazers=1&theme=Dark" alt="LearnJava" width="full" />
 
 <h2 align="center"> Some Useful Resources</h2>
+
 | --- | --- |----|
-| YouTube                                    | Coding IDEs                              | Free Courses                                                     |
+
+|YouTube|Coding IDEs|Free Courses|
 | ------------------------------------------ | ---------------------------------------- | ---------------------------------------------------------------- |
 | [Bro Code](https://youtu.be/xk4_1vDrzzo)    | [Netbeans](https://netbeans.apache.org/) | [Codecademy](https://www.codecademy.com/learn/learn-java)        |
 | [Telusko](https://youtu.be/BGTx91t8q50)     | [VScode](https://code.visualstudio.com/) | [freeCodeCamp](https://www.freecodecamp.org/news/learn-java-free-java-courses-for-beginners/) |
