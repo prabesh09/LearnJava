@@ -10,10 +10,10 @@ public class Database {
     Statement stm;
     ResultSet rst;
 
-    Database(){
-        try{
+    Database() {
+        try {
             Class.forName("com.mysql.cj.jdbc.Driver");
-            conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/user_database","root","");
+            conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/user_database", "root", "");
             stm = conn.createStatement();
 
             String query = "CREATE DATABASE IF NOT EXISTS user_database";
@@ -23,55 +23,54 @@ public class Database {
             stm.executeUpdate(tb_query);
 
             System.out.println("Success...");
-        }catch (Exception e){
+        } catch (Exception e) {
             System.out.println(e.getMessage());
         }
     }
 
-    public void insertInformation(String name, String username, String email, String password){
-        try{
-            String insert_query = String.format("INSERT INTO user_info (name, username, email, password) VALUES ('%s', '%s', '%s', '%s')", name, username, email, password);
+    public void insertInformation(String name, String username, String email, String password) {
+        try {
+            String insert_query = String.format(
+                    "INSERT INTO user_info (name, username, email, password) VALUES ('%s', '%s', '%s', '%s')", name,
+                    username, email, password);
             System.out.println(insert_query);
             stm.executeUpdate(insert_query);
-        }
-        catch (Exception e){
+        } catch (Exception e) {
             System.out.println(e.getMessage());
         }
     }
 
-    public boolean checkUser(String username, String password){
-        try{
+    public boolean checkUser(String username, String password) {
+        try {
             String read_query = "SELECT * FROM user_info";
             rst = stm.executeQuery(read_query);
             int i = 0;
-            while(rst.next()){
+            while (rst.next()) {
                 String user = rst.getString("username");
                 String pass = rst.getString("password");
-                if(user.equals(username) && pass.equals(password)){
+                if (user.equals(username) && pass.equals(password)) {
                     return true;
                 }
             }
-        }
-        catch (Exception e){
+        } catch (Exception e) {
             System.out.println(e.getMessage());
         }
         return false;
     }
 
-    public boolean checkDuplicate(String username, String email){
-        try{
+    public boolean checkDuplicate(String username, String email) {
+        try {
             String read_query = "SELECT * FROM user_info";
             rst = stm.executeQuery(read_query);
             int i = 0;
-            while(rst.next()){
+            while (rst.next()) {
                 String user = rst.getString("username");
                 String mail = rst.getString("email");
-                if(user.equals(username) || mail.equals(email)){
+                if (user.equals(username) || mail.equals(email)) {
                     return true;
                 }
             }
-        }
-        catch (Exception e){
+        } catch (Exception e) {
             System.out.println(e.getMessage());
         }
         return false;
